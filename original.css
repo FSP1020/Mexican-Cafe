@@ -1,0 +1,106 @@
+body a:hover {
+  cursor:  url("https://img.icons8.com/color/48/000000/taco.png"), auto;
+
+}
+
+
+/* Container holding the image and the text */
+.hero-image{
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+
+.hero-image img {
+  width: 100vw;
+  height:  auto;
+
+  filter:  brightness(100%);
+
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  font-size: 3.5rem;
+  font-weight: bold;
+  color:  #51a285;
+  left: 2%;
+  bottom: 5%;
+  text-shadow:  0.03rem 0.03rem 0.03rem black;
+  font-family: 'Brush Script MT', cursive;
+}
+
+.centered a {
+  text-decoration: none;
+  color:  white;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+.navbar-custom {
+    background-color: grey;
+}
+
+.nav-link {
+  color:  white;
+}
+
+.nav-link:hover {
+  background-color:  #51a285;
+  color:  white;
+  border-radius: 0.5rem;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("https://img.icons8.com/color/48/000000/taco.png");
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: white;
+  border-radius: 0.5rem;
+  border-width: 0.15rem;
+  } 
+
+button.navbar-toggler:focus {
+  box-shadow: 0.075rem 0.075rem 0.075rem white;
+}
+
+
+.welcome {
+  width: 80%;
+  margin-left: 10%;
+}
+
+.welcome h2 {
+  text-align: center;
+  padding-top:  1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.welcome p {
+  text-align: center;
+}
+
+.welcome img {
+  width:  40%;
+  height:  auto;
+  margin-left:  30%;
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+  /* Centered text */
+.centered {
+  display:  none;
+}
+}
+
+
+
+
