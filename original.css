@@ -74,8 +74,9 @@ button.navbar-toggler:focus {
 .custom-brand {
   color:  white;
   font-family: 'Brush Script MT', cursive;
+  font-weight: bold;
   margin-left:  1rem;
-  font-size: 2rem;
+  font-size: 1.5rem;
   display: none;
 }
 
