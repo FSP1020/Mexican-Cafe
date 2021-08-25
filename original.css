@@ -135,9 +135,11 @@ button.navbar-toggler:focus {
 
 .mobile-nav {
   float:  left;
-  font-size:30px;
+  font-size: 2rem;
   cursor:pointer;
   position: -webkit-sticky;
+  display:  block;
+  position: sticky;
   top: 0;
   margin-left: 1rem
 }
