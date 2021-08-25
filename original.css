@@ -134,16 +134,16 @@ button.navbar-toggler:focus {
 }
 
 .mobile-nav {
-  font-size: 2rem; 
-  font-family: 'Brush Script MT', cursive;   
-  font-weight: bold; 
-  color: #51a285; 
-  margin-right: 5%; 
-  margin-left: 20%
+  float:  left;
+  font-size:30px;
+  cursor:pointer;
+  position: -webkit-sticky;
+  top: 0;
+  margin-left: 1rem
 }
 
 span.mobile-title {
-  font-size: 2rem; 
+  font-size: 1.5rem; 
   font-family: 'Brush Script MT', cursive;   
   font-weight: bold; 
   color: #51a285; 
