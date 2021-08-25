@@ -133,6 +133,14 @@ button.navbar-toggler:focus {
   margin-left:  30%;
 }
 
+.mobile-nav {
+  font-size: 2rem; 
+  font-family: 'Brush Script MT', cursive;   
+  font-weight: bold; 
+  color: #51a285; 
+  margin-right: 5%; 
+  margin-left: 20%
+}
 
 span.mobile-title {
   font-size: 2rem; 
@@ -155,7 +163,7 @@ span.mobile-title {
 span.mobile-title {
   display: none;
 }
-span.mobile-nav {
+.mobile-nav {
   display:  none;
 }
 }
