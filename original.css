@@ -82,7 +82,7 @@ button.navbar-toggler:focus {
 .overlay a {
   padding: 8px;
   text-decoration: none;
-  font-size: 1.5rem;
+  font-size: 1rem;
   color: #818181;
   display: block;
   transition: 0.3s;
@@ -100,11 +100,11 @@ button.navbar-toggler:focus {
 }
 
 @media screen and (max-height: 450px) {
-  .overlay a {font-size: 20px}
+  .overlay a {font-size: 1rem}
   .overlay .closebtn {
-  font-size: 40px;
+  font-size: 2rem;
   top: 15px;
-  right: 35px;}
+  right: 1rem;}
   }
 }
 
