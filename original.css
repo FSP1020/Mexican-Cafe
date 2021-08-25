@@ -3,13 +3,16 @@ body a:hover {
 
 }
 
+body {
+  overflow-x: hidden;
+}
+
 
 /* Container holding the image and the text */
 .hero-image{
   position: relative;
   text-align: center;
   color: white;
-  will-change:transform
 }
 
 
