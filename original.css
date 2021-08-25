@@ -9,6 +9,7 @@ body a:hover {
   position: relative;
   text-align: center;
   color: white;
+  will-change:transform
 }
 
 
