@@ -148,7 +148,8 @@ span.mobile-title {
   font-weight: 1000; 
   color: #51a285; 
   margin-right: 5%; 
-  margin-left: 20%
+  margin-left: 20%;
+  padding-top:  1rem;
 }
 
 
