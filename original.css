@@ -37,53 +37,72 @@ body a:hover {
   color:  white;
 }
 
-.navbar .navbar-collapse {
-    text-align: center;
-}
 
-.navbar-custom {
-    background-color: grey;
-}
 
-.nav-link {
-  color:  white;
-}
-
-.nav-link:hover {
-  background-color:  #51a285;
-  color:  white;
-  border-radius: 0.5rem;
-}
-
-.custom-toggler .navbar-toggler-icon {
+/*.custom-toggler .navbar-toggler-icon {
   background-image: url("https://img.icons8.com/color/48/000000/taco.png");
 }
 
 .custom-toggler.navbar-toggler {
-  border-color: white;
+  border-color: black;
   border-radius: 0.5rem;
   border-width: 0.15rem;
-  margin-right:  0.5rem;
+  margin-left:  0.5rem;
   } 
 
 button.navbar-toggler:focus {
   box-shadow: 0.075rem 0.075rem 0.075rem white;
+}*/
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
 }
 
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
 
-.custom-brand {
-  color:  white;
-  font-family: 'Brush Script MT', cursive;
-  font-weight: bold;
-  margin-left:  1rem;
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
   font-size: 1.5rem;
-  display: none;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
 }
 
-.custom-brand:hover {
-  color:  white;
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
 }
 
+.overlay .closebtn {
+  position: absolute;
+  top: 0%;
+  right: 10%;
+  font-size: 2rem;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;}
+  }
+}
 
 .welcome {
   width: 80%;
@@ -91,12 +110,16 @@ button.navbar-toggler:focus {
 }
 
 .welcome h2 {
+  width:  80%;
+  margin-left: 10%;
   text-align: center;
   padding-top:  1.5rem;
   padding-bottom: 1.5rem;
 }
 
 .welcome p {
+  width:  80%;
+  margin-left: 10%;
   text-align: center;
 }
 
@@ -106,17 +129,29 @@ button.navbar-toggler:focus {
   margin-left:  30%;
 }
 
-@media screen and (max-width: 576px) {
 
-.custom-brand {
-  display: inline-block;
-}
+span.mobile-title {
+  font-size: 2rem; 
+  font-family: 'Brush Script MT', cursive;   
+  font-weight: bold; 
+  color: #51a285; 
+  margin-right: 5%; 
+  margin-left: 20%
 }
 
 
 @media screen and (max-width: 600px) {
   /* Centered text */
 .centered {
+  display:  none;
+}
+}
+
+@media screen and (min-width: 601px) {
+span.mobile-title {
+  display: none;
+}
+span.mobile-nav {
   display:  none;
 }
 }

@@ -21,27 +21,23 @@
         </div>
 
         <!-- Navbar -->
-        <nav class="navbar navbar-expand-sm navbar-custom sticky-top">
-          <a class="navbar-brand custom-brand" href="#">The Original Mexican Cafe</a>
-          <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon">
-            </span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav mx-auto text-md-center">
-              <a class="nav-item nav-link" href="#welcome">WELCOME</a>
-              <a class="nav-item nav-link" href="#contact">CONTACT US</a>
-              <a class="nav-item nav-link" href="#web">ON THE WEB</a>
-              <a class="nav-item nav-link" href="#menu">MENU</a>
-              <a class="nav-item nav-link" href="https://direct.chownow.com/order/27151/locations">ORDER NOW</a>
-
-            </div>
+        <div id="myNav" class="overlay">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <div class="overlay-content">
+            <a href="#">WELCOME</a>
+            <a href="#">CONTACT US</a>
+            <a href="#">ON THE WEB</a>
+            <a href="#">MENU</a>
+            <a href="#">ORDER NOW</a>
           </div>
-        </nav>
+        </div>
+
+        <span class="mobile-nav" style="font-size:30px;cursor:pointer;position: sticky;top: 0;margin-left: 1rem" onclick="openNav()">&#9776;</span>
+        <span class="mobile-title">The Original Mexican Cafe</span>
 
 
         <!-- Content -->
-        <div class="welcome" id="welcome">
+        <div class="welcome">
             <h2>Classic Tex-Mex Since 1916</h2>
             <p>Voted BEST Margaritas 2012 and BEST Mexican Food 2012, 2013, 2014, 2015, 2017, 2018, 2019, 2020</p>
             <P>The Original is the longest continually operating restaurant on Galveston Island still at its Original location.  We are located on the corner of 14th and Market in Galveston's beautiful Historic District.  We have private parking next to the restaurant and have plenty of street parking.</p>
@@ -76,6 +72,17 @@
             <p>Next Time You Need Catering Think of Us!</p>
             <img src="https://i.pinimg.com/originals/ab/d0/3a/abd03a460a9b43811c98d1640835fa6e.jpg">
         </div>
+
+
+        <script>
+        function openNav() {
+          document.getElementById("myNav").style.width = "30%";
+        }
+
+        function closeNav() {
+          document.getElementById("myNav").style.width = "0%";
+        }
+        </script>
 
 
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
