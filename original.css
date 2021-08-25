@@ -143,13 +143,12 @@ button.navbar-toggler:focus {
 }
 
 span.mobile-title {
-  font-size: 1.75rem; 
+  font-size: 2rem; 
   font-family: 'Brush Script MT', cursive;   
-  font-weight: 1000; 
+  font-weight: 900; 
   color: #51a285; 
   margin-right: 5%; 
   margin-left: 20%;
-  padding-top:  1rem;
 }
 
 
